@@ -1,0 +1,15 @@
+/Users/ydelfinozen/Desktop/enson/bin/Debug/net6.0/enson
+/Users/ydelfinozen/Desktop/enson/bin/Debug/net6.0/enson.deps.json
+/Users/ydelfinozen/Desktop/enson/bin/Debug/net6.0/enson.runtimeconfig.json
+/Users/ydelfinozen/Desktop/enson/bin/Debug/net6.0/enson.dll
+/Users/ydelfinozen/Desktop/enson/bin/Debug/net6.0/enson.pdb
+/Users/ydelfinozen/Desktop/enson/obj/Debug/net6.0/enson.csproj.AssemblyReference.cache
+/Users/ydelfinozen/Desktop/enson/obj/Debug/net6.0/enson.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ydelfinozen/Desktop/enson/obj/Debug/net6.0/enson.AssemblyInfoInputs.cache
+/Users/ydelfinozen/Desktop/enson/obj/Debug/net6.0/enson.AssemblyInfo.cs
+/Users/ydelfinozen/Desktop/enson/obj/Debug/net6.0/enson.csproj.CoreCompileInputs.cache
+/Users/ydelfinozen/Desktop/enson/obj/Debug/net6.0/enson.dll
+/Users/ydelfinozen/Desktop/enson/obj/Debug/net6.0/refint/enson.dll
+/Users/ydelfinozen/Desktop/enson/obj/Debug/net6.0/enson.pdb
+/Users/ydelfinozen/Desktop/enson/obj/Debug/net6.0/enson.genruntimeconfig.cache
+/Users/ydelfinozen/Desktop/enson/obj/Debug/net6.0/ref/enson.dll

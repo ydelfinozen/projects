@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding-top: 00px;
+    padding-bottom: 00px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.myheader {
+    background-color: #4CAF50; /* color of header */
+    padding: 20px;
+    text-align: center; /* Center the text */
+    border:2px solid #333; /* adding border */
+    font-size: 1.2em; 
+    color: #fff; 
+}
+
+
+header nav ul li a:hover {
+    font-size: 20px; /* bigger font when hovered over */
+    color: #a2ff00; /* Change color of text on hover */
+    text-decoration: underline; /* Add underline on hover */
+    font-size: 1.35em;
+}
+
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+    font-size: 1.5em;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.anatolianrock {
+    background-color: #95cbc3;
+}
+
+
+.anatolianrock h2 {
+    color: #000000;
+    text-align: center;
+}
+
+#shadow_it {
+    text-shadow: 1px 1px 1px rgb(79, 133, 188), 2px 2px 1px rgb(238, 183, 255);
+}
+
+
+.anatolianrock h2:hover {
+    color: #8800ff; /* Change purple on text on hover */
+    cursor: pointer; 
+}
+
+.anatolianrock p::selection {
+    background-color: #ffc107; /* highlighting orange */
+    color: #000000; 
+}
+
+
+/*for table */
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+th, td {
+    border: 1px solid #ffc107; /* cell border */
+    text-align: left; 
+    padding: 8px;
+}
+
+th {
+    background-color: #ffc107; /* colouring the header of my table */
+    font-weight: bold; 
+}
+
+td:active {
+    background-color: #da7fd9;
+    font-size: 1.5em;   /* change color and fint size when clicked */
+}
+
+/* column style change */
+
+.container_index {
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-gap: 20px; /* add 20px gap between columns */
+}
+
+.container_arrp {
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 15% 50% 35%;
+    grid-gap: 20px; /* add 20px gap between columns */
+
+}
+
+.container_artists {
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px; /* add 20px gap between columns */
+}
+
+div > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+

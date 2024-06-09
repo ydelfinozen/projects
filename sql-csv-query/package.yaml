@@ -1,0 +1,56 @@
+name:                sql-csv-query
+version:             0.1.0.0
+github:              "ydelfinozen/sql-csv-query"
+author:              "Yaren Delfin Ozen"
+maintainer:          "ydelfinozen@gmail.com"
+extra-source-files:  []
+
+library:
+  source-dirs: src
+  dependencies:
+    - base >= 4.7 && < 5
+    - cassava
+    - text
+    - conduit
+    - attoparsec
+    - megaparsec
+    - streamly
+    - vector
+    - split
+    - bytestring
+    - unordered-containers
+
+executables:
+  sql-csv-query-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - sql-csv-query
+    - base >= 4.7 && < 5
+    - text
+    - vector
+    - split
+    - bytestring
+    - unordered-containers
+
+tests:
+  sql-csv-query-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - sql-csv-query
+    - hspec
+    - base >= 4.7 && < 5
+    - text
+    - vector
+    - split
+    - bytestring
+    - unordered-containers

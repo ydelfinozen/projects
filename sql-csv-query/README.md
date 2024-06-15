@@ -32,7 +32,7 @@ This Haskell-based program allows users to perform SQL-like queries on CSV and s
     ```
 
 2. Available commands:
-    - `load <file>`: Load a CSV or log file.
+    - `load <file>`: Load a CSV file.
     - `query <SQL-like query>`: Execute a SQL-like query on the loaded data.
     - `save <file>`: Save the query results to a text file.
     - `help`: Display usage instructions.
